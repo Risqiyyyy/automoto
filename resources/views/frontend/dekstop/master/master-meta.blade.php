@@ -1,21 +1,21 @@
 <meta charset="utf-8">
 <title>
-    {{ request()->is('/') ? 'Indopop.ID | Berita Gosip Artis Terkini Di Indonesia' : ($post->title ?? 'Indopop.ID | Berita Gosip Artis Terkini Di Indonesia') }}
+    {{ request()->is('/') ? 'Automoto | Berita otomotif terkini' : ($post->title ?? 'Automoto | Berita otomotif terkini') }}
 </title>
 <meta name="description" content="
-    {{ request()->is('/') ? 'Berita terkini dari kalangan selebritis ternama Tanah Air maupun Internasional' : ($post->description ?? 'Berita terkini dari kalangan selebritis ternama Tanah Air maupun Internasional') }}
+    {{ request()->is('/') ? 'Automoto.id menyajikan berita seputar otomotif motor, mobil dan life style sebagai bacaan ringan, informatif dan inspiratif' : ($post->description ?? 'Automoto.id menyajikan berita seputar otomotif motor, mobil dan life style sebagai bacaan ringan, informatif dan inspiratif') }}
 ">
 <meta name="keywords" content="
-    {{ request()->is('/') ? 'berita, gosip, selebriti, Indopop, Indonesia' : ($post->keyword ?? 'berita, gosip, selebriti, Indopop, Indonesia') }}
+    {{ request()->is('/') ? 'Berita, Otomotif, Motor, Mobil, Bengkel, Terkini, Logistik' : ($post->keyword ?? 'Berita, Otomotif, Motor, Mobil, Bengkel, Terkini, Logistik') }}
 ">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Open Graph Meta Tags -->
 <meta property="og:title" content="
-    {{ request()->is('/') ? 'Indopop.ID' : ($post->title ?? 'Indopop.ID') }}
+    {{ request()->is('/') ? 'Automoto' : ($post->title ?? 'Automoto') }}
 ">
 <meta property="og:description" content="
-    {{ request()->is('/') ? 'Berita terkini dari kalangan selebritis ternama Tanah Air maupun Internasional. Disajikan dengan cepat, tepat, ringan.' : ($post->description ?? 'Berita terkini dari kalangan selebritis ternama Tanah Air maupun Internasional. Disajikan dengan cepat, tepat, ringan.') }}
+    {{ request()->is('/') ? 'Automoto.id menyajikan berita seputar otomotif motor, mobil dan life style sebagai bacaan ringan, informatif dan inspiratif. Disajikan dengan cepat, tepat, ringan.' : ($post->description ?? 'Automoto.id menyajikan berita seputar otomotif motor, mobil dan life style sebagai bacaan ringan, informatif dan inspiratif. Disajikan dengan cepat, tepat, ringan.') }}
 ">
 <meta property="og:image" content="
     {{
@@ -28,15 +28,15 @@
 ">
 <meta property="og:url" content="{{ url()->current() }}">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Indopop.ID">
+<meta property="og:site_name" content="Automoto">
 
 <!-- Twitter Card Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="
-    {{ request()->is('/') ? 'Indopop.ID' : ($post->title ?? 'Indopop.ID') }}
+    {{ request()->is('/') ? 'Automoto' : ($post->title ?? 'Automoto') }}
 ">
 <meta name="twitter:description" content="
-    {{ request()->is('/') ? 'Berita terkini dari kalangan selebritis ternama Tanah Air maupun Internasional. Disajikan dengan cepat, tepat, ringan.' : ($post->description ?? 'Berita terkini dari kalangan selebritis ternama Tanah Air maupun Internasional. Disajikan dengan cepat, tepat, ringan.') }}
+    {{ request()->is('/') ? 'Automoto.id menyajikan berita seputar otomotif motor, mobil dan life style sebagai bacaan ringan, informatif dan inspiratif. Disajikan dengan cepat, tepat, ringan.' : ($post->description ?? 'Automoto.id menyajikan berita seputar otomotif motor, mobil dan life style sebagai bacaan ringan, informatif dan inspiratif. Disajikan dengan cepat, tepat, ringan.') }}
 ">
 <meta name="twitter:image" content="
     {{

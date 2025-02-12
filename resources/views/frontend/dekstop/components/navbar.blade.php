@@ -3,7 +3,7 @@
         <div class="header-container">
             <div class="logo-wrap">
                 <a href="/">
-                    <img alt="IndoParents.com" width="120" height="30" src="{{ asset('frontend/logo/logo.svg') }}" />
+                    <img alt="Automoto" width="150" height="30" src="{{ asset('frontend/logo/LOGO_AUTOMOTOWHITEFULL.svg') }}" />
                 </a>
             </div>
             <div class="fr">
@@ -59,6 +59,6 @@
                     </svg>
                 </button>
             </div>
-        </form>        
+        </form>
     </div>
 </header>
