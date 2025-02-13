@@ -3,7 +3,7 @@
         <div class="header-container">
             <div class="logo-wrap">
                 <a href="/">
-                    <img alt="Automoto" width="150" height="30" src="{{ asset('frontend/logo/LOGO_AUTOMOTOWHITEFULL.svg') }}" />
+                    <img alt="Automoto" width="150" height="20" src="{{ asset('frontend/logo/LOGO_AUTOMOTOWHITEFULL.svg') }}" />
                 </a>
             </div>
             <div class="fr">
@@ -16,16 +16,10 @@
                             @foreach ($categories as $item)
                             <li class="menu-item dropdown">
                                 <a href="{{ route('kanal.desktop', ['slug' => $item->slug]) }}" class="{{ Request::is('kanal/' . $item->slug) ? 'active' : '' }}">{{$item->nama_kategori}}</a>
-                                {{-- <ul class="dropdown-menu">
-                                    <li><a href="{{ url('/kanal/sub1') }}">Sub Kanal 1</a></li>
-                                    <li><a href="{{ url('/kanal/sub2') }}">Sub Kanal 2</a></li>
-                                    <li><a href="{{ url('/kanal/sub3') }}">Sub Kanal 3</a></li>
-                                    <li><a href="{{ url('/kanal/sub4') }}">Sub Kanal 4</a></li>
-                                </ul> --}}
                             </li>
                             @endforeach
                             <li class="menu-item">
-                                <a href="https://www.youtube.com/@indopopid" target="_blank">Video</a>
+                                <a href="https://www.youtube.com/@Automoto" target="_blank">Video</a>
                             </li>
                             <li class="menu-item">
                                 <a href="{{ url('/indeks') }}"

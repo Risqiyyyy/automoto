@@ -6,7 +6,7 @@
                     Copyright {{ date('Y') }} © KBN Digital
                 </div>
                 <div class="order-1 order-lg-2">
-                    Indopop Industries {{ date('Y') }}
+                    Automoto Industries {{ date('Y') }}
                 </div>
             </div>
         </div>

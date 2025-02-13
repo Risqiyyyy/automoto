@@ -68,7 +68,7 @@
 
                     </figure>
                     <div class="article-detail--body">
-                        <p><strong>Indopop.id</strong> {!! preg_replace_callback(
+                        <p><strong>Automoto</strong> {!! preg_replace_callback(
                             '/<img[^>]+alt="([^"]*)"[^>]*>/i',
                             function ($matches) {
                                 return $matches[0] . '<br><i>' . htmlspecialchars($matches[1]) . '</i>';

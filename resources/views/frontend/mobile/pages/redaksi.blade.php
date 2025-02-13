@@ -92,11 +92,11 @@
                         </div>
                         <li>Facebook:</li>
                         <div class="list-nama">
-                            <p>Indopop ID</p>
+                            <p>Automoto</p>
                         </div>
                         <li>Instagram:</li>
                         <div class="list-nama">
-                            <p>@indopop.id</p>
+                            <p>@Automoto</p>
                         </div>
                         <li>Rekening Bank:</li>
                         <div class="list-nama">
@@ -104,7 +104,7 @@
                         </div>
                         <li>No. Rekening:</li>
                         <div class="list-nama">
-                            <p>5230256391 a/n Indopop</p>
+                            <p>5230256391 a/n Automoto</p>
                         </div>
 
 
