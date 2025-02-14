@@ -16,7 +16,7 @@
 
         <div class="header-logo--wrap">
             <a href="/">
-                <img src="{{ asset('frontend/logo/logo.svg') }}" width="155" height="24" alt="Logo-IndoParent.com"
+                <img src="{{ asset('frontend/logo/LOGO_AUTOMOTOWHITEFULL.svg') }}" width="155" height="24" alt="Logo-IndoParent.com"
                     class="logo">
             </a>
         </div>
@@ -61,9 +61,10 @@
                     <a href="/">Home</a>
                 </li>
                 @foreach ($categories as $item)
-                <li class="menu-item {{ Request::is('kanal/' . $item->slug) ? 'active' : '' }}">
-                    <a href="{{ route('kanal.desktop', ['slug' => $item->slug]) }}" class="">{{$item->nama_kategori}}</a>
-                </li>
+                    <li class="menu-item {{ Request::is('kanal/' . $item->slug) ? 'active' : '' }}">
+                        <a href="{{ route('kanal.desktop', ['slug' => $item->slug]) }}"
+                            class="">{{ $item->nama_kategori }}</a>
+                    </li>
                 @endforeach
                 <li class="menu-item">
                     <a href="https://www.youtube.com/@Automoto" target="_blank">Video</a>
